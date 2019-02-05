@@ -1,0 +1,4 @@
+1 from 192.168.0.10 to 192.168.0.2 with tcp/80 => allow
+2 from 88.1.12.225 to 99.235.1.15 with tcp/80,8080 => deny
+3 from 192.168.0.0/24 to 192.168.0.0/28 with udp/any => allow
+4 from any to 192.168.0.2 with any => deny
