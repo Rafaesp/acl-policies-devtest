@@ -4,6 +4,16 @@ This is an old and no longer used development test.
 You can read what was requested in this file: [DEVTEST.md](DEVTEST.md)
 
 
+The application is a war that can run on an embedded tomcat. It is done using Spring Boot and I have only added commons-lang as a dependency to increase the amount of code I write to make it easier to evaluate the test although in a real case I would have used external libraries especially to avoid errors in the range calculation of the CIDR.
+
+I have chosen to follow the concepts of Domain Driven Design to create a very object-oriented layer where the objects mix data and behavior and separate it well from other layers such as the one in charge of the infrastructure to expose the REST API.
+
+The design patterns that I thought convenient to use are:
+Builder
+Facade
+Data Transfer Objects (DTO)
+
+I didn't want to force the readability of the code for using more design patterns.
 
 ### Usage
 To start the embedded server, run:
