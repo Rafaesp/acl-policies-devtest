@@ -9,9 +9,9 @@ The application is built as a war that can run on an embedded tomcat. It's done 
 I've chosen to follow the concepts of Domain Driven Design to create a very object-oriented layer where the objects mix data and behavior and separate it well from other layers such as the one in charge of the infrastructure to expose the REST API.
 
 The design patterns that I thought convenient to use are:
-Builder
-Facade
-Data Transfer Objects (DTO)
+- Builder
+- Facade
+- Data Transfer Objects (DTO)
 
 I didn't want to force the readability of the code for using more design patterns.
 
